@@ -1,8 +1,8 @@
 ## 0x01. Python - if/else, loops, functions
 
-## project Expectations
+## Project Expectations
 
-Why Python programming is awesome
+Why Python programming is awesome <br />
 Why indentation is so important in Python
 How to use the if, if ... else statements
 How to use comments
