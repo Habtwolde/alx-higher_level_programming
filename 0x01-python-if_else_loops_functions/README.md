@@ -23,3 +23,5 @@
 | Filename | Description |
 | -------- | ----------- |
 | `0-positive_or_negative.py` | Prints if a number is positive, zero or negative |
+| `1-last_digit.py` | Prints the last digit of a random number |
+| `2-print_alphabet.py` | Prints the ASCII alphabet in lowercase |
