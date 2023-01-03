@@ -30,3 +30,12 @@
 | `5-print_comb2.py` | Prints numbers from 0 to 99, separated by `, ` |
 | `6-print_comb3.py` | Prints all possible combinations of two digits, separated by `, ` |
 | `7-islower.py` | Checks for lowercase character |
+| `8-uppercase.py` | Prints a string in uppercase |
+| `9-print_last_digit.py` | Prints the last digit of a passed number |
+| `10-add.py` | Adds two integers and returns the result |
+| `11-pow.py` | Computes `a` to the power of `b` and return the value |
+| `12-fizzbuzz.py` | Prints FizzBuzz pattern |
+| `13-insert_number.c` | Inserts a node in a linked list according to a given index |
+| `100-print_tebahpla.py` | Prints the ASCII aplhabet in reverse, in uppercase and lowercase |
+| `101-remove_char_at.py` | Creates a copy of the string, removing the character at the position `n` |
+| `102-magic_calculation.py` | Function that does exactly the same as a given Python bytecode |
