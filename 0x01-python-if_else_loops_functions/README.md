@@ -25,3 +25,8 @@
 | `0-positive_or_negative.py` | Prints if a number is positive, zero or negative |
 | `1-last_digit.py` | Prints the last digit of a random number |
 | `2-print_alphabet.py` | Prints the ASCII alphabet in lowercase |
+| `3-print_alphabt.py` | Prints the ASCII alphabet in lowercase, except `q` and `e` |
+| `4-print_hexa.py` | Prints all numbers from `0` to `98` in decimal and hexadecimal |
+| `5-print_comb2.py` | Prints numbers from 0 to 99, separated by `, ` |
+| `6-print_comb3.py` | Prints all possible combinations of two digits, separated by `, ` |
+| `7-islower.py` | Checks for lowercase character |
