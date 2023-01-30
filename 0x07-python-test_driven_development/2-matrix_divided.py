@@ -17,7 +17,7 @@ def matrix_divided(matrix, div):
         A new matrix with the result of the division
 
     Raises:
-        TypeError: If the elements of the matrix aren't lists
+        TypeError: If the elements of the matrix are not lists
                    If the elemetns of the lists aren't integers/floats
                    If div is not an integer/float number
                    If the lists of the matrix don't have the same size
