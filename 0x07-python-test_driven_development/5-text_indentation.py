@@ -16,7 +16,7 @@ def text_indentation(text):
         No return
 
     Raises:
-        TypeError: If text is not a string
+        TypeError: If text is not a string.
 
 
     """
