@@ -17,7 +17,7 @@ def say_my_name(first_name, last_name=""):
         No return
 
     Raises:
-        TypeError: If first_name or last_name is not a string
+        TypeError: If first_name or last_name is not a string.
 
 
     """
