@@ -16,7 +16,7 @@ def print_square(size):
         No return
 
     Raises:
-        TypeError: If size is not an integer number
+        TypeError: If size is not an integer number.
 
 
     """
