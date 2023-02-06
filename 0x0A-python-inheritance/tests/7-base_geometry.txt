@@ -60,6 +60,7 @@ Passing one argument to integer_validator
     	      ...
     TypeError: integer_validator() missing 1 required positional argument: 'value'
 
+
 Integer_validator with no arguments
     >>> bg = BaseGeometry()
     >>> bg.integer_validator()
@@ -83,12 +84,14 @@ Passing one argument to area method
     	      ...
     TypeError: area() takes 1 positional argument but 2 were given
 
+
 Passing two arguments to area method
     >>> bg = BaseGeometry()
     >>> bg.area(5, 5)
     Traceback (most recent call last):
     	      ...
     TypeError: area() takes 1 positional argument but 3 were given
+
 
 Passing tuple to method
     >>> bg = BaseGeometry()

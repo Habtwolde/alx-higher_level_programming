@@ -1,19 +1,32 @@
 #!/usr/bin/python3
-Rectangle = __import__('9-rectangle').Rectangle
+""" Square class """
 
 
-class Square(Rectangle):
-    """ Class that defines a Square from Rectangle class """
+BaseGeometry = __import__("7-base_geometry").BaseGeometry
+
+
+class Square(BaseGeometry):
+    """ A Square shape, inherited from BaseGeometry """
     def __init__(self, size):
-        """ Method that initializes a Square """
-        self.integer_validator("size", size)
-        self.__size = size
-        super().__init__(self.__size, self.__size)
+        """
+        Init function for Square
 
-    def area(self):
-        """ Method that returns a string with the area """
-        return super().area()
+        Attributes:
+            size(int): The size of the square
+        """
+        self.integer_validator("size", size)
+        self.__size__ = size
 
     def __str__(self):
-        """ Special method that returns a printable string """
-        return "[Square] {}/{}".format(self.__size, self.__size)
+        """
+        str function to print width/height
+
+        Returns:
+            width or height
+        """
+
+        return "[Square] " + str(self.__size__) + "/" + str(self.__size__)
+
+    def area(self):
+        """ A function that calculates the area of the Square """
+        return self.__size__ ** 2
